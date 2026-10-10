@@ -1,9 +1,9 @@
 import secrets
 
-char = "@#$_-+()/*:;!?~`|•√π÷×§∆£¢€¥^°={}%©®™✓[]"
+symbols = "@#$_-+()/*:;!?~`|•√π÷×§∆£¢€¥^°={}%©®™✓[]"
 numbers = "1234567890"
 letters = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
-all_chars = char + numbers + letters
+all_chars = symbols + numbers + letters
 title = " password generator "
 x = title.center(60 , "=")
 print(x.title())
